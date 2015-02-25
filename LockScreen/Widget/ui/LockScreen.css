@@ -1,0 +1,67 @@
+/****lock****/
+
+#keypad{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+#keypad td:active{
+    background: darkgray;
+}
+#keypad td{
+    width: 33%;
+    border: white solid 2px;
+    background: lightgray;
+}
+
+#lockscreen{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #505F6E ;
+		padding-top: 25%;
+}
+
+#lockscreen > div#keys{
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#lockscreen > div#logo{
+    right: 0;
+    left: 0;
+}
+
+.code td{
+    width: 20%;
+    background: white;
+    border: rgb(5, 110, 130) solid 10px;
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.code{
+    width:100%;
+}
+
+#quickcode{
+    opacity: 0;
+}
+
+.fill{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    background: grey !important;
+}
+
+/*********/
